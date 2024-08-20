@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #576574;
+}
+
+.fotoperfil {
+    border-radius: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+header {
+    background-color: #222f3e;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho {
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome {
+    justify-items: center;
+    font-weight: 600;
+    color: white;
+    font-size: 2.5rem;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+.sobrenome {
+    font-weight: 500;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.profissao {
+    color: white;
+}
+
+nav {
+    background-color: #222f3e;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    column-gap: 0.8rem;
+    color: white;
+    font-weight: 400;
+    padding-top: 0.51rem;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+}
+
+.botnav {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.botnav a {
+    text-decoration: none;
+    color: white;
+}
+
+.botnav:focus,
+.botnav:hover {
+    color: #fff;
+    font-weight: 600;
+}
+
+.botnav:focus:after,
+.botnav:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.botnav:after {
+    content: "";
+    bottom: -0.5rem;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition-duration: 300ms;
+}
+
+.botnav {
+    font-weight: 800;
+    position: relative;
+}
+
+.quemsou {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+}
+
+.titlequemsou {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.descquemsou {
+    color: white;
+    font-weight: 200;
+}
+
+.formacoesacademicas {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.cursos {
+    padding-top: 2rem;
+}
+.experiencias {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.titlecursos {
+    padding-left: 2rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.titleexperiencias{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.formacoes {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.cardsenai {
+    max-width: 300px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+}
+
+.cardexpbahiana {
+    max-width: 300px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+}
+
+.cardfunsuptec {
+    border-radius: 0.5rem;
+    background-color: #fff;
+    min-width: 12rem;
+    min-height: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+.cardsenai a {
+    text-decoration: none
+}
+
+.conteudo {
+    padding: 1.1rem;
+}
+
+.curso {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.instituicaoedata {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.matrizcurso {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+ul {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cardfunsuptec .vercertificado {
+    text-decoration: none;
+    font-weight: 600;
+    position: end;
+}
+
+.vercertificado:hover {
+    font-weight: 800;
+}
+
+.cursos .cardscursos {
+    padding-left: 2rem;
+    padding-right: 1rem;
+    display: flex;
+    column-gap: 0.5rem;
+    overflow-x: auto;
+    scrollbar-color: transparent;
+    scrollbar-base-color: transparent;
+}
